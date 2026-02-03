@@ -1,0 +1,21 @@
+# SYSTEM DESCRIPTION:
+
+BookReview is tiny book-review microservice system that lets users post reviews and view simple analytics.
+
+# USER STORIES:
+
+As a Client, i want to register so that i can use the site
+As a Client, i want to login so that i can use the site
+As a Client , I want to not put my Credentials in the site every time a reload the site, so that I can use the site
+As a Client , I want to logout, so that no one else use my account
+As a Client, i want have a homepage so that i can see the reviewd books even without being logged
+As a Client, i want to review books so that i can share my opinion
+As a Client, i want to give score to books so that i can share my overall rating
+As a Client, i want to see the reviewed books and their average score so that i can decide which book to read
+As a Client, i want to edit my reviews so that i can feel free to change my mind
+As a Client, i want to delete my reviews so that i can feel free to change my mind
+As a Client, i want to subscribe to a newsletter so taht i can be notified every time a ìnew review is submitted
+As the Administrator of the site, I want to login in the site
+As the Administrator of the site, I want to not put my Credentials in the site every time a reload the site
+As the Administrator of the site, I want to logout from the site
+As the Administrator of the site, I want to delete malevolus user
