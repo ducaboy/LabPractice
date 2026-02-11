@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}New Post{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+    <label for="title">Title</label>
+    <input name="title" id="title" value="{{ request.form['title'] }}" required>
+    <label for="author">Author</label>
+    <input name="author" id="author" value="{{ request.form['author'] }}" required>
+    <label for="rating">Rating ( Between 1.0 and 5.0) </label>
+    <input type = "number" name="rating" id="rating" min = "1" max = "5" step = "0.1" required>
+    <label for="review">Review</label>
+    <textarea name="review" id="review">{{ request.form['review'] }}</textarea>
+    <input type="submit" value="Save">
+  </form>
+{% endblock %}
